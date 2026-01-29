@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import cneg from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-float64-base-neg@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/complex-float64-base-neg/tags). For example,
+
+```javascript
 import cneg from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-float64-base-neg@v0.1.0-esm/index.mjs';
 ```
 
@@ -106,7 +111,7 @@ out = cneg( z );
 
 import Complex128 from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-float64-ctor@esm/index.mjs';
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-discrete-uniform@esm/index.mjs';
-import cneg from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-float64-base-neg@v0.1.0-esm/index.mjs';
+import cneg from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-float64-base-neg@esm/index.mjs';
 
 function randomComplex() {
     var re = discreteUniform( -50, 50 );
