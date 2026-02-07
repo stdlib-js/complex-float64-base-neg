@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import cneg from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-float64-base-neg@esm/index.mjs';
+import cneg from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-float64-base-neg@v0.1.1-esm/index.mjs';
 ```
 
 #### cneg( z )
@@ -106,7 +106,7 @@ out = cneg( z );
 
 import Complex128 from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-float64-ctor@esm/index.mjs';
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-discrete-uniform@esm/index.mjs';
-import cneg from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-float64-base-neg@esm/index.mjs';
+import cneg from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-float64-base-neg@v0.1.1-esm/index.mjs';
 
 function randomComplex() {
     var re = discreteUniform( -50, 50 );
